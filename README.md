@@ -1,23 +1,21 @@
 # Stronghold Crusader MOD
 This is CowMan Stronghold Crusader Mod
 
-ChangeLog
-
-v0.1
-    +Bug Fixing Using Unofficial Crusader Patch
-    +Increase of the attacking troops limit of the AIs
-    +Improve attack waves
-    +Increased recuitment speed
-    +Increased armor of laddermen against ranged unit
-    +Increased armof of Arabic Swordsmen against crossbows
-    +Increased armot of Spearmen against ranged units
-    +Arabic Swordsmen destroy walls faster
-    +Restore engineer arabian speech
-    +Spearmen run by default
-    +Healer heals casualities
-    +No siege tent deselection
-    +Always show planned moat
-    +Free trader post
-    +Quiker responsiveness of gates towards enemies
-    +Imporve unit pathfinding
-    +Camera move using WASD
+v0.1 ChangeLog<br />
+    +Bug Fixing Using Unofficial Crusader Patch<br />
+    +Increase of the attacking troops limit of the AIs<br />
+    +Improve attack waves<br />
+    +Increased recuitment speed<br />
+    +Increased armor of laddermen against ranged unit<br />
+    +Increased armof of Arabic Swordsmen against crossbows<br />
+    +Increased armot of Spearmen against ranged units<br />
+    +Arabic Swordsmen destroy walls faster<br />
+    +Restore engineer arabian speech<br />
+    +Spearmen run by default<br />
+    +Healer heals casualities<br />
+    +No siege tent deselection<br />
+    +Always show planned moat<br />
+    +Free trader post<br />
+    +Quiker responsiveness of gates towards enemies<br />
+    +Imporve unit pathfinding<br />
+    +Camera move using WASD<br />
