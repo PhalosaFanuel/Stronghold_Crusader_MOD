@@ -1222,7 +1222,7 @@
 				"CowThrowInterval": 10000,
 				"Unknown142": 0,
 				"AttMaxEngineers": 12,
-				"AttDiggingUnit": "ArabSwordsman",
+				"AttDiggingUnit": "Slave",
 				"AttDiggingUnitMax": 25,
 				"AttUnitVanguard": "HorseArcher",
 				"AttUnitVanguardMax": 25,
