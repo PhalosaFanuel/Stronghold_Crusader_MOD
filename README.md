@@ -7,8 +7,8 @@ This is CowMan Stronghold Crusader Mod
 +Improve attack waves<br />
 +Increased recuitment speed<br />
 +Increased armor of laddermen against ranged unit<br />
-+Increased armof of Arabic Swordsmen against crossbows<br />
-+Increased armot of Spearmen against ranged units<br />
++Increased armor of Arabic Swordsmen against crossbows<br />
++Increased armor of Spearmen against ranged units<br />
 +Arabic Swordsmen destroy walls faster<br />
 +Restore engineer arabian speech<br />
 +Spearmen run by default<br />
