@@ -15,3 +15,10 @@ Free trader post
 Quiker responsiveness of gates towards enemies
 Imporve unit pathfinding
 Camera move using WASD
+
+AI
+Sultan
+    -Significantly improve sultan attacking troops
+    -Significantly improve sultan defense troops
+    -Improving sultan castle
+    -Other personality change
