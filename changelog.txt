@@ -16,3 +16,6 @@ v0.1 -- 15-3-2022
     +Quiker responsiveness of gates towards enemies
     +Imporve unit pathfinding
     +Camera move using WASD
+    +Increase attacking troops limit of AIs to 1000
+    +Reduce reruitment defense troops from 6 month to 1 month
+    +Increase the rate of additional attack troops from 5 unit to 100% of base unit
