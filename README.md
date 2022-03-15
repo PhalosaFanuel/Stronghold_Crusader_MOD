@@ -1,7 +1,7 @@
 # Stronghold Crusader MOD
 This is CowMan Stronghold Crusader Mod
 
-v0.1 ChangeLog<br />
+## v0.1 ChangeLog<br />
 +Bug Fixing Using Unofficial Crusader Patch<br />
 +Increase of the attacking troops limit of the AIs<br />
 +Improve attack waves<br />
@@ -18,7 +18,7 @@ v0.1 ChangeLog<br />
 +Free trader post<br />
 +Quiker responsiveness of gates towards enemies<br />
 +Imporve unit pathfinding<br />
-+Camera move using WASD<br />
++Camera move using WASD<br /><br />
 AI<br />
 Sultan<br />
 +Significantly improve sultan attacking troops<br />
