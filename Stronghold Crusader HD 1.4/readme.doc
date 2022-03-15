@@ -1,0 +1,873 @@
+{\rtf1\adeflang1025\ansi\ansicpg1252\uc1\adeff0\deff0\stshfdbch0\stshfloch0\stshfhich0\stshfbi0\deflang2057\deflangfe2057{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}{\f312\froman\fcharset238\fprq2 Times New Roman CE;}
+{\f313\froman\fcharset204\fprq2 Times New Roman Cyr;}{\f315\froman\fcharset161\fprq2 Times New Roman Greek;}{\f316\froman\fcharset162\fprq2 Times New Roman Tur;}{\f317\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\f318\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\f319\froman\fcharset186\fprq2 Times New Roman Baltic;}{\f320\froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\f322\fswiss\fcharset238\fprq2 Arial CE;}
+{\f323\fswiss\fcharset204\fprq2 Arial Cyr;}{\f325\fswiss\fcharset161\fprq2 Arial Greek;}{\f326\fswiss\fcharset162\fprq2 Arial Tur;}{\f327\fbidi \fswiss\fcharset177\fprq2 Arial (Hebrew);}{\f328\fbidi \fswiss\fcharset178\fprq2 Arial (Arabic);}
+{\f329\fswiss\fcharset186\fprq2 Arial Baltic;}{\f330\fswiss\fcharset163\fprq2 Arial (Vietnamese);}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;
+\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\upr{\stylesheet{
+\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 \snext0 Normal;}{\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 
+\rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 \sbasedon0 \snext0 \slink18 heading 1;}{\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 
+\ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 \sbasedon0 \snext0 \slink16 heading 2;}{\*\cs10 \additive \ssemihidden Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblind0\tblindtype3\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \fs20\lang1024\langfe1024\cgrid\langnp1024\langfenp1024 \snext11 \ssemihidden Normal Table;}{\*\cs15 \additive \rtlch\fcs1 \ai\af0 
+\ltrch\fcs0 \i \sbasedon10 \styrsid7281653 Emphasis;}{\*\cs16 \additive \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\langnp2057\langfenp2057 \sbasedon10 \slink2 \slocked \ssemihidden \styrsid1602624 Nagl\'f3wek 2 Znak;}{\*\cs17 
+\additive \rtlch\fcs1 \af0 \ltrch\fcs0 \ul\cf2 \sbasedon10 \styrsid1602624 Hyperlink;}{\*\cs18 \additive \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\langnp2057\langfenp2057 \sbasedon10 \slink1 \slocked \styrsid1602624 
+Nagl\'f3wek 1 Znak;}{\*\cs19 \additive \rtlch\fcs1 \af0 \ltrch\fcs0 \sbasedon10 \styrsid6821390 apple-converted-space;}}{\*\ud\uc0{\stylesheet{\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 \snext0 Normal;}{\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 
+\sbasedon0 \snext0 \slink18 heading 1;}{\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 \sbasedon0 \snext0 \slink16 
+heading 2;}{\*\cs10 \additive \ssemihidden Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblind0\tblindtype3\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \fs20\lang1024\langfe1024\cgrid\langnp1024\langfenp1024 \snext11 \ssemihidden Normal Table;}{\*\cs15 \additive \rtlch\fcs1 \ai\af0 
+\ltrch\fcs0 \i \sbasedon10 \styrsid7281653 Emphasis;}{\*\cs16 \additive \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\langnp2057\langfenp2057 \sbasedon10 \slink2 \slocked \ssemihidden \styrsid1602624 
+Nag{\uc1\u322 l\'f3wek 2 Znak};}{\*\cs17 \additive \rtlch\fcs1 \af0 \ltrch\fcs0 \ul\cf2 \sbasedon10 \styrsid1602624 Hyperlink;}{\*\cs18 \additive \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\langnp2057\langfenp2057 
+\sbasedon10 \slink1 \slocked \styrsid1602624 Nag{\uc1\u322 l\'f3wek 1 Znak};}{\*\cs19 \additive \rtlch\fcs1 \af0 \ltrch\fcs0 \sbasedon10 \styrsid6821390 apple-converted-space;}}}}{\*\latentstyles\lsdstimax156\lsdlockeddef0}{\*\rsidtbl \rsid1120093
+\rsid1602624\rsid4677045\rsid6821390\rsid7281653\rsid7946091\rsid9072912\rsid10452325\rsid10646911\rsid11151826\rsid14385066\rsid15754904}{\*\generator Microsoft Word 11.0.0000;}{\info{\title ENGLISH}{\author Paul Harris}{\operator Paul Harris}
+{\creatim\yr2013\mo4\dy5\hr14\min47}{\revtim\yr2017\mo5\dy19\hr18\min21}{\version3}{\edmins6}{\nofpages18}{\nofwords4414}{\nofchars25161}{\nofcharsws29516}{\vern24617}{\*\password 00000000}}{\*\xmlnstbl {\xmlns1 http://schemas.microsoft.com/office/word/20
+03/wordml}{\xmlns2 urn:schemas-microsoft-com:office:smarttags}}\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect 
+\widowctrl\ftnbj\aenddoc\donotembedsysfont0\donotembedlingdata1\grfdocevents0\validatexml0\showplaceholdtext0\ignoremixedcontent0\saveinvalidxml0\showxmlerrors0\horzdoc\dghspace120\dgvspace120\dghorigin1701\dgvorigin1984\dghshow0\dgvshow3
+\jcompress\viewkind4\viewscale100\rsidroot7281653 \fet0{\*\wgrffmtfilter 013f}\ilfomacatclnup0\ltrpar \sectd \ltrsect\linex0\sectdefaultcl\sftnbj {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl2
+\pnucltr\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl6
+\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang 
+{\pntxtb (}{\pntxta )}}\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid7281653 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af1\afs20 
+\ltrch\fcs0 \b\f1\fs20\lang1033\langfe2057\langnp1033\insrsid7281653\charrsid6821390 ENGLISH
+\par 
+\par }\pard\plain \ltrpar\s1\qc \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af1 \ltrch\fcs0 
+\b\f1\ul\insrsid10646911\charrsid6821390 Stronghold Crusader Extreme }{\rtlch\fcs1 \ab\af1 \ltrch\fcs0 \b\f1\ul\insrsid11151826\charrsid6821390 HD }{\rtlch\fcs1 \ab\af1 \ltrch\fcs0 \b\f1\ul\insrsid10646911\charrsid6821390 (v}{\rtlch\fcs1 \ab\af1 
+\ltrch\fcs0 \b\f1\ul\insrsid15754904 1.4e}{\rtlch\fcs1 \ab\af1 \ltrch\fcs0 \b\f1\ul\insrsid7281653\charrsid6821390 ) \endash  Readme
+\par }\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 
+\f1\fs20\insrsid7281653\charrsid6821390 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid10646911 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \f1\fs20\insrsid10646911\charrsid6821390 Welcome to the new editio
+n of Stronghold Crusader HD! The HD editions now support widescreen resolutions up to 2560 x 1600 allowing you to enjoy the games like you've never seen them before and take in all the stunning detail.
+\par 
+\par We have also included some bonus maps for you to play around with and enjoy, some created by ourselves and some by members of our outstanding and dedicated fan communities.
+\par 
+\par We hope you enjoy playing the HD editions and as always, thank you for your support.
+\par 
+\par Firefly Studios
+\par 
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\ul\insrsid10646911\charrsid6821390 Old savegames and settings
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \f1\fs20\insrsid10646911\charrsid6821390 
+\par Stronghold Crusader HD stores user maps, saves and settings in the Documents
+\par \\Stronghold Crusader folder.  If you have upgraded to Stronghold Crusader HD 
+\par from an old version of Stronghold Crusader you will need to copy the maps, saves 
+\par and settings from the Program Files\\Firefly Studios\\Stronghold Crusader folder 
+\par (default location) to the Documents\\Stronghold Crusader folder.
+\par 
+\par Savegames (.sav files)
+\par 
+\par Old Location: Program Files\\Firefly Studios\\Stronghold Crusader\\saves
+\par New Location: Documents\\Stronghold Crusader\\saves
+\par 
+\par Maps (custom .map files)
+\par 
+\par Old Location: Program Files\\Firefly Studios\\Stronghold Crusader\\maps
+\par New Location: Documents\\Stronghold Crusader\\maps
+\par 
+\par Settings (crusader.cfg)
+\par 
+\par Old Location: Program Files\\Firefly Studios\\Stronghold Crusader
+\par New Location: Documents\\Stronghold Crusader
+\par 
+\par Skirmish Trail (skmasters.dat)
+\par 
+\par Old Location: Program Files\\Firefly Studios\\Stronghold Crusader
+\par New Location: Documents\\Stronghold Crusader
+\par 
+\par NOTE: If you are using 64 bit Windows the default installation location is 
+\par Program Files (x86)\\Firefly Studios\\Stronghold Crusader
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \f1\fs20\insrsid10646911\charrsid6821390 
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\insrsid10646911\charrsid6821390 
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 
+\b\f1\fs20\insrsid7281653\charrsid6821390 Section 1 \endash  Crusader Extreme
+\par Section 2 \endash  Useful Web Addresses
+\par Section 3 \endash  Multiplayer Help
+\par Section 4 \endash  GameSpy Arcade & Windows {\*\xmlopen\xmlns2{\factoidname place}}Vista{\*\xmlclose}
+\par }\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 
+\b\f1\fs20\insrsid7281653\charrsid6821390 Section 5 \endash  Additional Features
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\insrsid7281653\charrsid6821390 
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\ul\insrsid7281653\charrsid6821390 Section 1 \endash  Crusader Extreme
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\insrsid7281653\charrsid6821390 
+\par If you are new to Crusader, we recommend playing either the Crusader or Warchest trails before attempting the Crusader Extreme trail. The Crusader Extreme trail has been created for veterans of our Stronghold titles. Gird your loins and let bat
+tle commence!
+\par 
+\par Stronghold Crusader Extreme features 2 versions of Stronghold Crusader: Stronghold Crusader Deluxe and Stronghold Crusader Extreme.  
+\par 
+\par Stronghold Crusader Deluxe was previously only released in the {\*\xmlopen\xmlns2{\factoidname country-region}}{\*\xmlopen\xmlns2{\factoidname place}}US{\*\xmlclose}{\*\xmlclose}
+.  It features all the content from the original Stronghold Crusader but also adds new opponents to battle and the Warchest trail.
+\par 
+\par Stronghold Crusader Extreme is a brand new version of Stronghold Crusader featuring new extreme features, such as the outpos
+ts and super attacks, which can be used in multiplayer and skirmish modes.  There are also new opponents to battle and the Extreme trail.
+\par  
+\par 
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 
+\b\f1\fs20\ul\insrsid7281653\charrsid6821390 Section 2 \endash  Useful Web Addresses
+\par }\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 
+\b\f1\fs20\ul\insrsid7281653\charrsid6821390 
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\insrsid7281653\charrsid6821390 http://www.fireflyworlds.com\tab \tab - Firefly Studios
+\par 
+\par http://stronghold.heavengames.com\tab - Heavengames Fansite 
+\par 
+\par http://www.stronghold-knights.com\tab - Stronghold Knights Fansite\tab 
+\par 
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\ul\insrsid7281653\charrsid6821390 Section 3 \endash  Multiplayer Help
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\insrsid7281653\charrsid6821390 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\insrsid7281653\charrsid6821390 Stronghold Crusader/Stronghold Crusader Extreme Multiplayer
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\insrsid7281653\charrsid6821390 
+\par If your computer is connected to a router/firewall you will need to forward the following Microsoft DirectPlay Firewall Ports to your computer in order to play Stronghold Crusader or Stronghold Crusader Extreme multiplayer.
+\par 
+\par \ltrrow}\trowd \irow0\irowband0\ltrrow\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3\tblind0\tblindtype3 \clvertalt\clbrdrt
+\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3510\clshdrawnil \cellx3402\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2835\clshdrawnil \cellx6237\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2268\clshdrawnil \cellx8505\pard \ltrpar
+\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\insrsid7281653\charrsid6821390 \cell Outbound\cell Inbound\cell }\pard \ltrpar
+\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\insrsid7281653\charrsid6821390 \trowd \irow0\irowband0\ltrrow\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl
+\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3\tblind0\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth3510\clshdrawnil \cellx3402\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2835\clshdrawnil \cellx6237\clvertalt\clbrdrt\brdrs\brdrw10 
+\clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2268\clshdrawnil \cellx8505\row \ltrrow}\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 
+\f1\fs20\insrsid7281653\charrsid6821390 Initial TCP Connection\cell 47624\cell 47624\cell }\pard \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 
+\f1\fs20\insrsid7281653\charrsid6821390 \trowd \irow1\irowband1\ltrrow\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 
+\trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3\tblind0\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3510\clshdrawnil \cellx3402\clvertalt\clbrdrt
+\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2835\clshdrawnil \cellx6237\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2268\clshdrawnil \cellx8505\row \ltrrow}\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\insrsid7281653\charrsid6821390 Subsequent TCP\cell 2300-2400\cell 
+2300-2400\cell }\pard \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\insrsid7281653\charrsid6821390 \trowd \irow2\irowband2\ltrrow\ts11\trgaph108\trleft-108\trbrdrt
+\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3\tblind0\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3510\clshdrawnil \cellx3402\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2835\clshdrawnil \cellx6237\clvertalt\clbrdrt
+\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2268\clshdrawnil \cellx8505\row \ltrrow}\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af1\afs20 
+\ltrch\fcs0 \f1\fs20\insrsid7281653\charrsid6821390 Subsequent UDP\cell 2300-2400\cell 2300-2400\cell }\pard \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 
+\f1\fs20\insrsid7281653\charrsid6821390 \trowd \irow3\irowband3\lastrow \ltrrow\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 
+\trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3\tblind0\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3510\clshdrawnil \cellx3402\clvertalt\clbrdrt
+\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2835\clshdrawnil \cellx6237\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2268\clshdrawnil \cellx8505\row }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\insrsid7281653\charrsid6821390 
+\par If you require help configuring your router please visit portforward.com which has an excellent range of guides for over 1000 routers.
+\par 
+\par http://www.portforward.com/english/routers/port_forwarding/routerindex.htm
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\insrsid7281653\charrsid6821390 Windows Firewall
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\insrsid7281653\charrsid6821390 
+\par }\pard \ltrpar\ql \li180\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin180\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\insrsid7281653\charrsid6821390 1.\tab Open Control Panel > Windows Firewall
+\par 2.\tab Select the Exceptions tab
+\par 3.\tab If Stronghold Crusader and Stronghold Crusader Extreme are not in the list click Add Program.
+\par 4.\tab Select Stronghold Crusader and click OK
+\par 5.\tab Repeat the process for Stronghold Crusader Extreme
+\par 6.\tab Click OK to close the Window Firewall panel
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\ul\insrsid7281653\charrsid6821390 
+\par 
+\par Section 4 \endash  GameSpy Arcade & Windows {\*\xmlopen\xmlns2{\factoidname place}}Vista{\*\xmlclose}
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\insrsid7281653\charrsid6821390 
+\par To play multiplayer via Gamespy Arcade on Windows Vista, Windows Vista Service Pack 1 must be installed.
+\par 
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\ul\insrsid7281653\charrsid6821390 Section 5 \endash  Additional Features
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\insrsid7281653\charrsid6821390 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\insrsid7281653\charrsid6821390 Radar Map
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\insrsid7281653\charrsid6821390 
+\par While in-game pressing ALT-R changes the radar map to show the enemies all in one colour and the player and allies in another colour.
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\insrsid7281653\charrsid6821390 Extreme Powers Around Lord
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\insrsid7281653\charrsid6821390  
+\par Within Extreme Multiplayer Play Options, you can active \lquote Extreme Powers Around Lord\lquote .\~ This option enables the player to spawn troops using the Tactical Aid Bar within the radius of the lord rather than just within the radius of your Keep.
+
+\par 
+\par 
+\par 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid7281653 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\ul\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 \page }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 
+\b\f1\fs20\insrsid7281653\charrsid6821390 FRAN\'c7AIS
+\par 
+\par }\pard\plain \ltrpar\s1\qc \li0\ri0\keepn\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af1 \ltrch\fcs0 
+\b\f1\ul\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 Fichier LisezMoi de Stronghold Crusader Extreme}{\rtlch\fcs1 \ab\af1 \ltrch\fcs0 \b\f1\ul\lang1036\langfe2057\langnp1036\insrsid1120093\charrsid6821390  HD}{\rtlch\fcs1 \ab\af1 
+\ltrch\fcs0 \b\f1\ul\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390  }{\rtlch\fcs1 \ab\af1 \ltrch\fcs0 \b\f1\ul\lang1033\langfe2057\langnp1033\insrsid1120093\charrsid6821390 (v}{\rtlch\fcs1 \ab\af1 \ltrch\fcs0 
+\b\f1\ul\lang1033\langfe2057\langnp1033\insrsid15754904 1.4e}{\rtlch\fcs1 \ab\af1 \ltrch\fcs0 \b\f1\ul\lang1033\langfe2057\langnp1033\insrsid7281653\charrsid6821390 )}{\rtlch\fcs1 \ab\af1 \ltrch\fcs0 
+\b\f1\ul\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 
+\par }\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid1120093 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 
+\f1\fs20\lang1033\langfe2057\langnp1033\insrsid7281653\charrsid6821390 
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0\pararsid1120093 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 
+\f1\fs20\lang1036\langfe2057\langnp1036\insrsid1120093\charrsid6821390 Bienvenue dans la nouvelle \'e9dition de Stronghold Crusader Extreme HD\~! Les \'e9ditions HD supportent maintenant les r\'e9solutions pour grands \'e9crans jusqu'\'e0 2560 x\~
+1600 vous permettant de profiter de jeux comme vous ne les avez jamais vus avant et d'en appr\'e9cier tous les d\'e9tails renversants.
+\par 
+\par Nous avons \'e9galement inclus des cartes en bonus pour que vous puissiez vous amuser et profiter, nous en avons cr\'e9\'e9 certaines et d'autres ont \'e9t\'e9 faites par les membres de nos incroyables communaut\'e9s de d\'e9vou\'e9s fans. 
+\par 
+\par Nous esp\'e9rons que vous appr\'e9cierez les \'e9ditions HD et comme toujours, nous vous remercions de votre soutien.
+\par 
+\par Firefly Studios
+\par 
+\par }\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid1120093 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\f1\lang1036\langfe2057\langnp1036\insrsid1120093\charrsid6821390 
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0\pararsid1120093 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 
+\b\f1\fs20\lang1036\langfe2057\langnp1036\insrsid1120093\charrsid6821390 Sauvegardes et r\'e9glages pr\'e9c\'e9dents
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \f1\fs20\lang1036\langfe2057\langnp1036\insrsid1120093\charrsid6821390 
+\par Stronghold Crusader HD m\'e9morise les cartes, sauvegardes et r\'e9glages dans le fichier Documents\\Stronghold Crusader. Si vous \'eates pass\'e9 d'une ancienne version de Stronghold Crusader \'e0
+ Stronghold Crusader HD, vous aurez besoin de copier les cartes, les sauvegardes et les r\'e9glages qui se trouvent dans le fichier Program Files\\Firefly Studios\\Stronghold Crusader (emplacement par d\'e9faut) au fichier Documents\\
+Stronghold Crusader.  
+\par 
+\par Sauvegardes (fichiers .sav)
+\par 
+\par Ancien emplacement\~: Program Files\\Firefly Studios\\Stronghold Crusader\\saves
+\par Nouvel emplacement\~: Documents\\Stronghold Crusader\\Saves
+\par 
+\par Cartes (fichiers .map personnalis\'e9s)
+\par 
+\par Ancien emplacement\~: Program Files\\Firefly Studios\\Stronghold Crusader\\maps
+\par Nouvel emplacement\~: Documents\\Stronghold Crusader\\maps
+\par 
+\par R\'e9glages (crusader.cgf)
+\par 
+\par Ancien emplacement\~: Program Files\\Firefly Studios\\Stronghold Crusader
+\par Nouvel emplacement\~: Documents\\Stronghold Crusader
+\par 
+\par Piste d'escarmouche (skmasters.dat)
+\par 
+\par Ancien emplacement\~: Program Files\\Firefly Studios\\Stronghold Crusader
+\par Nouvel emplacement\~: Documents\\Stronghold Crusader
+\par 
+\par REMARQUE\~: si vous utilisez Windows 64 bit, l'emplacement de l'installation par d\'e9faut est Program Files (x86)\\Firefly Studios\\Stronghold Crusader
+\par }\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid1120093 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\f1\lang1036\langfe2057\langnp1036\insrsid1120093\charrsid6821390 
+\par 
+\par 
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 
+\b\f1\fs20\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 Partie 1 \endash  Crusader Extreme
+\par Partie 2 \endash  Adresses de sites Internet utiles
+\par }\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 
+\b\f1\fs20\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 Partie 3 \endash  Aide Multijoueur
+\par Partie 4 \endash  Gamespy Arcade & Windows Vista
+\par Partie 5 \endash  Caract\'e9ristiques suppl\'e9mentaires
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\ul\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 Partie 1 \endash  Crusader Extreme
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 
+\par Si vous d\'e9couvrez Crusader, nous vous conseillons de jouer d'abord \'e0 la Piste du Crois\'e9 ou la S\'e9rie d'escarmouches 2 avant de vous lancer dans la S\'e9rie d'escarmouches Extreme. La S\'e9rie d'escarmouches Extreme a \'e9t\'e9 cr\'e9\'e9
+e pour les joueurs exp\'e9riment\'e9s des titres Stronghold. Rev\'eatez votre armure et que la bataille commence\~!
+\par 
+\par Stronghold Crusader Extreme propose deux versions de Stronghold Crusader\~: Stronghold Crusader Deluxe et Stronghold Crusader Extreme.
+\par 
+\par Stronghold Crusader Deluxe n'\'e9tait sorti qu'aux Etats-Unis. Il propose tout le contenu du jeu Stronghold Crusader original, mais ajoute aussi de nouveaux adversaires \'e0 affronter et la S\'e9rie d'escarmouches 2.
+\par 
+\par Stronghold Crusader Extreme est une toute nouvelle version de Stronghold Crusader, proposant de nouveaux \'e9l\'e9ments extr\'ea
+mes, comme les avant-postes et les super attaques, utilisables aussi bien en multijoueur que dans les modes d'escarmouche. Il y a aussi de nouveaux adversaires \'e0 affronter et la S\'e9rie d'escarmouches Extreme.
+\par 
+\par 
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 
+\b\f1\fs20\ul\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 Partie 2 \endash  Adresses de sites Internet utiles
+\par }\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 
+\b\f1\fs20\ul\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 http://www.fireflyworlds.com\tab \tab - Firefly Studios
+\par 
+\par http://stronghold.heavengames.com\tab - Site de fans de Stronghold Heavengames
+\par 
+\par http://www.stronghold-knights.com\tab - Site de fans de Stronghold Knights
+\par 
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\ul\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 Partie 3.  Aide Multijoueur
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 Multijoueur Stronghold Crusader/Stronghold Crusader Extreme
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 
+\par Si votre ordinateur est connect\'e9 \'e0 un routeur ou un pare-feu, vous devez ouvrir les ports du pare-feu Microsoft DirectPlay suivants afin de pouvoir jouer \'e0 Stronghold Crusader ou Stronghold Crusader Extreme en mode Multijoueur.
+\par 
+\par \ltrrow}\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 \cell Sortant\cell Entrant\cell }\pard \ltrpar
+\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 \trowd \irow0\irowband0\ltrrow\ts11\trgaph108\trleft-108
+\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3\tblind0\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3510\clshdrawnil \cellx3402\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2835\clshdrawnil \cellx6237\clvertalt\clbrdrt
+\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2268\clshdrawnil \cellx8505\row \ltrrow}\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af1\afs20 
+\ltrch\fcs0 \f1\fs20\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 Connexion TCP initiale\cell 47624\cell 47624 \cell }\pard \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 
+\af1\afs20 \ltrch\fcs0 \f1\fs20\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 \trowd \irow1\irowband1\ltrrow\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 
+\trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3\tblind0\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3510\clshdrawnil \cellx3402\clvertalt\clbrdrt
+\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2835\clshdrawnil \cellx6237\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2268\clshdrawnil \cellx8505\row \ltrrow}\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 
+TCP suivant\cell 2300-2400\cell 2300-2400\cell }\pard \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 
+\trowd \irow2\irowband2\ltrrow\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3\tblind0\tblindtype3 \clvertalt\clbrdrt
+\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3510\clshdrawnil \cellx3402\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2835\clshdrawnil \cellx6237\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2268\clshdrawnil \cellx8505\row \ltrrow}\pard \ltrpar
+\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 UDP suivant\cell 2300-2400\cell 2300-2400\cell }\pard \ltrpar
+\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 \trowd \irow3\irowband3\lastrow \ltrrow
+\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3\tblind0\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 
+\clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3510\clshdrawnil \cellx3402\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2835\clshdrawnil 
+\cellx6237\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2268\clshdrawnil \cellx8505\row }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {
+\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 
+\par Si vous avez besoin d'aide pour configurer votre routeur, veuillez vous rendre sur portforward.com qui dispose d'un grand choix de guides sur plus de 1000 routeurs diff\'e9rents.
+\par 
+\par http://www.portforward.com/english/routers/port_forwarding/routerindex.htm
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 Pare-feu Windows
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 
+\par }\pard \ltrpar\ql \fi-360\li900\ri0\nowidctlpar\tx900\wrapdefault\faauto\rin0\lin900\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 1.\tab 
+Allez dans Panneau de configuration > Pare-feu Windows
+\par }\pard \ltrpar\ql \fi-360\li900\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin900\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 2.\tab Cliquez sur l'onglet Exceptions
+\par 3.\tab Si Stronghold Crusader et Stronghold Crusader Extreme n'apparaissent pas dans la liste, cliquez sur Ajouter un programme
+\par 4.\tab S\'e9lectionnez Stronghold Crusader puis cliquez sur OK
+\par 5.\tab R\'e9p\'e9tez le processus pour Stronghold Crusader Extreme
+\par 6.\tab Cliquez sur OK pour fermer la fen\'eatre Pare-feu Windows
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\ul\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 
+\par 
+\par Partie 4 \endash  Gamespy Arcade & Windows Vista
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 
+\par Le Service Pack 1 Windows Vista est n\'e9cessaire si vous voulez jouer en Multijoueur via Gamespy Arcade.
+\par 
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\ul\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 Partie 5. - Caract\'e9ristiques suppl\'e9mentaires
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 Mini-carte
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 
+\par En cours de partie, vous pouvez appuyer sur ALT-R pour afficher les ennemis d'une seule couleur et les alli\'e9s d'une autre sur la mini-carte.
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 Pouvoirs tactiques autour du seigneur
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 
+\par Dans le menu des options multijoueur Extreme, vous pouvez activer l'option Pouvoirs tactiques autour du seigneur. Cette option vous permet d'utiliser la barre d'Aide tactique pour faire appara\'eetre des unit\'e9
+s autour de votre seigneur et non plus uniquement autour de votre donjon.
+\par 
+\par }\pard \ltrpar\qc \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid7281653 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\ul\lang1036\langfe2057\langnp1036\insrsid7281653\charrsid6821390 \page }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 
+\b\f1\fs20\lang1031\langfe2057\langnp1031\insrsid7281653\charrsid6821390 DEUTSCH
+\par 
+\par }\pard \ltrpar\qc \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af1 \ltrch\fcs0 \b\f1\ul\lang1033\langfe2057\langnp1033\insrsid7281653\charrsid6821390 St}{\rtlch\fcs1 \ab\af1 \ltrch\fcs0 
+\b\f1\ul\lang1033\langfe2057\langnp1033\insrsid1120093\charrsid6821390 ronghold Crusader Extreme HD (v}{\rtlch\fcs1 \ab\af1 \ltrch\fcs0 \b\f1\ul\lang1033\langfe2057\langnp1033\insrsid15754904 1.4e}{\rtlch\fcs1 \ab\af1 \ltrch\fcs0 
+\b\f1\ul\lang1033\langfe2057\langnp1033\insrsid7281653\charrsid6821390 ) \endash  Readme
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe2057\langnp1033\insrsid7281653\charrsid6821390 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid1120093 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe2057\langnp1033\insrsid1120093\charrsid6821390 
+Willkommen bei der neuen Edition von Stronghold Crusader Extreme HD! Die HD-Editionen unterst\'fctzen jetzt Widescreen-Aufl\'f6sungen von bis zu 2560 x 1600, sodass du die Spiele wie noch nie zuvor mit unglaublichen Details genie\'dfen kannst.
+\par 
+\par Wir haben auch einige Bonuskarten hinzugef\'fcgt, mit denen du herumspielen und viel Spa\'df haben kannst. Manche davon haben wir selbst erstellt, manche stammen von Mitgliedern unserer unglaublichen Fan-Communitys.
+\par 
+\par Wir hoffen, du hast viel Spa\'df mit den HD-Editionen, und wie immer m\'f6chten wir uns ganz herzlich f\'fcr deine Unterst\'fctzung bedanken.
+\par 
+\par Firefly Studios
+\par 
+\par 
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe2057\langnp1033\insrsid1120093\charrsid6821390 Alte Spielst\'e4nde und Einstellungen
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe2057\langnp1033\insrsid1120093\charrsid6821390 
+\par Stronghold Crusader HD speichert Karten, Spielst\'e4nde und Einstellungen des Benutzers im Ordner Dokumente\\Stronghold Crusader.  Wenn du von einer \'e4lteren Version von Stronghold Crusader ein Upgrade auf Stronghold Crusader HD durchgef\'fc
+hrt hast, musst du die Karten, Spielst\'e4nde und Einstellungen aus dem Ordner Programme\\Firefly Studios\\Stronghold Crusader (Standard) in den Ordner Dokumente\\Stronghold Crusader kopieren.
+\par 
+\par Spielst\'e4nde (.sav-Dateien)
+\par 
+\par Alter Speicherort: Programme\\Firefly Studios\\Stronghold Crusader\\saves
+\par Neuer Speicherort: Dokumente\\Stronghold Crusader\\saves
+\par 
+\par Karten (individuelle .map-Dateien)
+\par 
+\par Alter Speicherort: Programme\\Firefly Studios\\Stronghold Crusader\\maps
+\par Neuer Speicherort: Dokumente\\Stronghold Crusader\\maps
+\par 
+\par Einstellungen (crusader.cfg)
+\par 
+\par Alter Speicherort: Programme\\Firefly Studios\\Stronghold Crusader
+\par Neuer Speicherort: Dokumente\\Stronghold Crusader
+\par 
+\par Skirmish Trail (skmasters.dat)
+\par 
+\par Alter Speicherort: Programme\\Firefly Studios\\Stronghold Crusader
+\par Neuer Speicherort: Dokumente\\Stronghold Crusader
+\par 
+\par HINWEIS: Wenn du eine 64-Bit-Version von Windows verwendest, ist das Spiel standardm\'e4\'dfig im Ordner Programme (x86)\\Firefly Studios\\Stronghold Crusader installiert
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe2057\langnp1033\insrsid1120093\charrsid6821390 
+\par 
+\par 
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 
+\b\f1\fs20\lang1031\langfe2057\langnp1031\insrsid7281653\charrsid6821390 1. Kapitel \endash  Crusader Extreme
+\par 2. Kapitel \endash  N\'fctzliche Internetadressen
+\par }\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 
+\b\f1\fs20\lang1031\langfe2057\langnp1031\insrsid7281653\charrsid6821390 3. Kapitel \endash  Mehrspieler-Hilfe
+\par 4. Kapitel \endash  Gamespy Arcade & Windows Vista
+\par 5. Kapitel \endash  Zus\'e4tzliche Funktionen
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1031\langfe2057\langnp1031\insrsid7281653\charrsid6821390 
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\ul\lang1031\langfe2057\langnp1031\insrsid7281653\charrsid6821390 1. Kapitel \endash  Crusader Extreme
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1031\langfe2057\langnp1031\insrsid7281653\charrsid6821390 
+\par Wenn Sie Crusader zum ersten Mal spielen, sollten Sie mit den ersten Kreuzz\'fcgen beginnen, bevor Sie sich an den Extrem-Kreuzzug heranwagen, der f\'fcr echte Stronghold-Veteranen konzipiert wurde. G\'fcrten Sie Ihre Lenden und auf in den Kampf!
+\par 
+\par Stronghold Crusader Extreme enth\'e4lt zwei verschiedene Versionen von Stronghold Crusader: Stronghold Crusader Deluxe und Stronghold Crusader Extreme.  
+\par 
+\par Stronghold Crusader Deluxe wurde urspr\'fcnglich nur in den USA ver\'f6ffentlicht. Es enth\'e4lt die gesamte Originalversion von Stronghold Crusader sowie zus\'e4tzliche neue Gegner und den Kreuzzugsmarsch 2.
+\par 
+\par Stronghold Crusader Extreme ist eine brandneue Version von Stronghold Crusader mit neuen Extremfunktionen wie Au\'dfenposten und Superangriffen, die im Mehrspieler- und im Gefechtsmodus gespielt werden k\'f6nnen. Au\'df
+erdem gibt es weitere neue Gegner und den Extrem-Kreuzzug.
+\par 
+\par 
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 
+\b\f1\fs20\ul\lang1031\langfe2057\langnp1031\insrsid7281653\charrsid6821390 2. Kapitel \endash  N\'fctzliche Internetadressen
+\par }\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 
+\b\f1\fs20\ul\lang1031\langfe2057\langnp1031\insrsid7281653\charrsid6821390 
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1031\langfe2057\langnp1031\insrsid7281653\charrsid6821390 http://www.fireflyworlds.com\tab \tab - Firefly Studios
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\insrsid7281653\charrsid6821390 
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe2057\langnp1033\insrsid7281653\charrsid6821390 http://stronghold.heavengames.com\tab - Heavengames Stronghold-Fansite
+\par 
+\par http://www.stronghold-knights.com\tab - Stronghold Knights-Fansite
+\par 
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\ul\lang1031\langfe2057\langnp1031\insrsid7281653\charrsid6821390 3. Kapitel \endash  Mehrspieler-Hilfe
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1031\langfe2057\langnp1031\insrsid7281653\charrsid6821390 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\lang1031\langfe2057\langnp1031\insrsid7281653\charrsid6821390 Stronghold Crusader/Stronghold Crusader Extreme Mehrspieler
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1031\langfe2057\langnp1031\insrsid7281653\charrsid6821390 
+\par Wenn Ihr Computer an einen Router mit Firewall angeschlossen ist, m\'fcssen Sie die Weiterleitungen f\'fcr die folgenden Micro
+soft DirectPlay Firewall-Ports auf ihrem Computer einrichten, um Stronghold Crusader oder Stronghold Crusader Extreme im Mehrspieler-Modus spielen zu k\'f6nnen.
+\par 
+\par \ltrrow}\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1031\langfe2057\langnp1031\insrsid7281653\charrsid6821390 \cell Ausgehend\cell Eingehend\cell }\pard \ltrpar
+\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1031\langfe2057\langnp1031\insrsid7281653\charrsid6821390 \trowd \irow0\irowband0\ltrrow\ts11\trgaph108\trleft-108
+\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3\tblind0\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3510\clshdrawnil \cellx3402\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2835\clshdrawnil \cellx6237\clvertalt\clbrdrt
+\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2268\clshdrawnil \cellx8505\row \ltrrow}\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af1\afs20 
+\ltrch\fcs0 \f1\fs20\lang1031\langfe2057\langnp1031\insrsid7281653\charrsid6821390 Erste TCP-Verbindung\cell 47624\cell 47624\cell }\pard \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af1\afs20 
+\ltrch\fcs0 \f1\fs20\lang1031\langfe2057\langnp1031\insrsid7281653\charrsid6821390 \trowd \irow1\irowband1\ltrrow\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 
+\trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3\tblind0\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3510\clshdrawnil \cellx3402\clvertalt\clbrdrt
+\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2835\clshdrawnil \cellx6237\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2268\clshdrawnil \cellx8505\row \ltrrow}\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1031\langfe2057\langnp1031\insrsid7281653\charrsid6821390 
+Folgende TCP\cell 2300-2400\cell 2300-2400\cell }\pard \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1031\langfe2057\langnp1031\insrsid7281653\charrsid6821390 
+\trowd \irow2\irowband2\ltrrow\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3\tblind0\tblindtype3 \clvertalt\clbrdrt
+\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3510\clshdrawnil \cellx3402\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2835\clshdrawnil \cellx6237\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2268\clshdrawnil \cellx8505\row \ltrrow}\pard \ltrpar
+\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1031\langfe2057\langnp1031\insrsid7281653\charrsid6821390 Folgende UDP\cell 2300-2400\cell 2300-2400\cell }\pard \ltrpar
+\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1031\langfe2057\langnp1031\insrsid7281653\charrsid6821390 \trowd \irow3\irowband3\lastrow \ltrrow
+\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3\tblind0\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 
+\clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3510\clshdrawnil \cellx3402\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2835\clshdrawnil 
+\cellx6237\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2268\clshdrawnil \cellx8505\row }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {
+\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1031\langfe2057\langnp1031\insrsid7281653\charrsid6821390 
+\par Wenn Sie bei der Konfiguration Ihres Routers Hilfe ben\'f6tigen, besuchen Sie bitte die Website portforward.com. Sie verf\'fcgt \'fcber Anleitungen f\'fcr \'fcber 1000 Router.
+\par 
+\par http://www.portforward.com/english/routers/port_forwarding/routerindex.htm
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\lang1031\langfe2057\langnp1031\insrsid7281653\charrsid6821390 Windows-Firewall
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1031\langfe2057\langnp1031\insrsid7281653\charrsid6821390 
+\par }\pard \ltrpar\ql \fi-360\li900\ri0\nowidctlpar\tx900\wrapdefault\faauto\rin0\lin900\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1031\langfe2057\langnp1031\insrsid7281653\charrsid6821390 1.\tab Systemsteuerung \'f6ffnen > Windows-Firewall
+
+\par }\pard \ltrpar\ql \fi-360\li900\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin900\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1031\langfe2057\langnp1031\insrsid7281653\charrsid6821390 2.\tab Gehen Sie auf die Registerkarte Ausnahmen
+\par 3.\tab Sollten Stronghold Crusader und Stronghold Crusader Extreme sich nicht in der Liste befinden, klicken Sie auf Programm hinzuf\'fcgen.
+\par 4.\tab W\'e4hlen Sie Select Stronghold Crusader und klicken Sie auf OK.
+\par 5.\tab Wiederholen Sie den Vorgang f\'fcr Stronghold Crusader Extreme.
+\par 6.\tab Klicken Sie auf OK, um das Bedienfeld Windows-Firewall zu schlie\'dfen.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\ul\lang1031\langfe2057\langnp1031\insrsid7281653\charrsid6821390 
+\par 
+\par 4. Kapitel \endash  Gamespy Arcade & Windows Vista
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1031\langfe2057\langnp1031\insrsid7281653\charrsid6821390 
+\par Sie ben\'f6tigen das Windows Vista Service Pack 1, wenn Sie ein Mehrspieler-Spiel \'fcber Gamespy Arcade spielen m\'f6chten.
+\par 
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\ul\lang1031\langfe2057\langnp1031\insrsid7281653\charrsid6821390 5. Kapitel \endash  Zus\'e4tzliche Funktionen
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1031\langfe2057\langnp1031\insrsid7281653\charrsid6821390 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\lang1031\langfe2057\langnp1031\insrsid7281653\charrsid6821390 Radar-Karte
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1031\langfe2057\langnp1031\insrsid7281653\charrsid6821390 
+\par Wenn Sie w\'e4hrend des Spielens ALT-R dr\'fccken, zeigt die Radar-Karte alle Gegner in einer Farbe und den Spieler und seine Mitstreiter in einer anderen Farbe an.
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\lang1031\langfe2057\langnp1031\insrsid7281653\charrsid6821390 Extreme Kr\'e4fte in der N\'e4he des Herrn
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1031\langfe2057\langnp1031\insrsid7281653\charrsid6821390 
+\par Sie k\'f6nnen in den Spieloptionen des Extreme Mehrspieler-Modus die Funktion \'84Extreme Kr\'e4fte in der N\'e4he des Herrn\'93 aktivieren. Der Spieler kann dann \'fc
+ber die Taktische Hilfe Truppen innerhalb des Radius des Herrn aufstellen, anstatt nur in eigener Reichweite.
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\keepn\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 
+\b\f1\fs20\ul\lang1031\langfe2057\langnp1031\insrsid7281653\charrsid6821390 
+\par }\pard \ltrpar\s1\qc \li0\ri0\keepn\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\ul\lang1031\langfe2057\langnp1031\insrsid7281653\charrsid6821390 
+\par 
+\par }\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid7281653 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 
+\b\f1\fs20\ul\insrsid7281653\charrsid6821390 \page }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \b\f1\fs20\lang1040\langfe2057\langnp1040\insrsid7281653\charrsid6821390 ITALIANO
+\par 
+\par }\pard\plain \ltrpar\s1\qc \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af1 \ltrch\fcs0 
+\b\f1\ul\insrsid7281653\charrsid6821390 St}{\rtlch\fcs1 \ab\af1 \ltrch\fcs0 \b\f1\ul\insrsid1120093\charrsid6821390 ronghold Crusader Extreme HD (v}{\rtlch\fcs1 \ab\af1 \ltrch\fcs0 \b\f1\ul\insrsid15754904 1.4e}{\rtlch\fcs1 \ab\af1 \ltrch\fcs0 
+\b\f1\ul\insrsid7281653\charrsid6821390 ) - File Readme
+\par }\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 
+\f1\fs20\insrsid7281653\charrsid6821390 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid1120093 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\insrsid1120093\charrsid6821390 
+Ti do il benvenuto alla nuova edizione di Stronghold Crusader ExtremeHD! Ora le edizioni HD supportano risoluzioni widescreen fino a 2560 x 1600: cos\'ec potrai goderti le partite come mai prima d'ora e osservare gli incredibili dettagli presenti.
+\par 
+\par Abbiamo aggiunto anche alcune mappe bonus con cui giocare e divertirti: alcune le abbiamo create noi, altre sono state create dai membri delle nostre comunit\'e0 online.
+\par 
+\par Speriamo che ti piaccia giocare alle edizioni HD e, come sempre, ti ringraziamo per il supporto.
+\par 
+\par Firefly Studios
+\par 
+\par 
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \b\f1\fs20\insrsid1120093\charrsid6821390 Vecchie partite salvate e impostazioni
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\insrsid1120093\charrsid6821390 
+\par Stronghold Crusader HD archivia le mappe utente, i salvataggi e le impostazioni nella cartella Documenti\\Stronghold Crusader. Se hai 
+aggiornato il gioco, passando da una vecchia versione a Stronghold Crusader HD, dovrai copiare le mappe, i salvataggi e le impostazioni dalla cartella Programmi\\Firefly Studios\\Stronghold Crusader (posizione predefinita) alla cartella Documenti\\
+Stronghold Crusader.
+\par 
+\par Partite salvate (file .sav)
+\par 
+\par Vecchia posizione: Programmi\\Firefly Studios\\Stronghold Crusader\\saves
+\par Nuova posizione: Documenti\\Stronghold Crusader\\saves
+\par 
+\par Mappe (file .map personalizzati)
+\par 
+\par Vecchia posizione: Programmi\\Firefly Studios\\Stronghold Crusader\\maps
+\par Nuova posizione: Documenti\\Stronghold Crusader\\maps
+\par 
+\par Impostazioni (crusader.cfg)
+\par 
+\par Vecchia posizione: Programmi\\Firefly Studios\\Stronghold Crusader
+\par Nuova posizione: Documenti\\Stronghold Crusader
+\par 
+\par Skirmish Trail (skmasters.dat)
+\par 
+\par Vecchia posizione: Programmi\\Firefly Studios\\Stronghold Crusader
+\par Nuova posizione: Documenti\\Stronghold Crusader
+\par 
+\par NOTA: se stai usando Windows a 64 bit, la posizione predefinita d'installazione \'e8: Programmi (x86)\\Firefly Studios\\Stronghold Crusader
+\par 
+\par 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\insrsid1120093\charrsid6821390 
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 
+\b\f1\fs20\lang1040\langfe2057\langnp1040\insrsid7281653\charrsid6821390 Sezione 1 \endash  Crusader Extreme
+\par Sezione 2 \endash  Indirizzi web utili
+\par }\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 
+\b\f1\fs20\lang1040\langfe2057\langnp1040\insrsid7281653\charrsid6821390 Sezione 3 \endash  Guida multigiocatore
+\par Sezione 4 \endash  Gamespy Arcade e Windows Vista
+\par Sezione 5 \endash  Funzionalit\'e0 aggiuntive
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1040\langfe2057\langnp1040\insrsid7281653\charrsid6821390 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\ul\lang1040\langfe2057\langnp1040\insrsid7281653\charrsid6821390 Sezione 1 \endash  Crusader Extreme
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1040\langfe2057\langnp1040\insrsid7281653\charrsid6821390 
+\par Se \'e8 la prima volta che giochi a Crusader, \'e8 consigliabile intraprendere il sentiero di Crusader o Warchest prima di affrontare quello di Crusader Extreme. Il sentiero di Crusader Extreme \'e8
+ stato progettato per giocatori veterani della serie Stronghold. Forza e coraggio... Che la battaglia abbia inizio!
+\par 
+\par Stronghold Crusader Extreme contiene due versioni di Stronghold Crusader: Stronghold Crusader Deluxe e Stronghold Crusader Extreme.  
+\par 
+\par Stronghold Crusader Deluxe venne inizialmente distribuito solo negli Stati Uniti.  Contiene tutte le caratteristiche dell'originale Stronghold Crusader, a cui si aggiungono nuovi nemici e la serie di missioni Warchest.
+\par 
+\par Stronghold Crusader Extreme \'e8 una versione completamente nuova di Stronghold Crusader che contiene caratteristiche "estreme", come gli avamposti e i super attacchi, utilizzabili in modalit\'e0
+ Schermaglia e Multigiocatore.  Inoltre, vi sono nuovi nemici e la serie di missioni Extreme.
+\par 
+\par 
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 
+\b\f1\fs20\ul\lang1040\langfe2057\langnp1040\insrsid7281653\charrsid6821390 Sezione 2 \endash  Indirizzi web utili
+\par }\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 
+\b\f1\fs20\lang1040\langfe2057\langnp1040\insrsid7281653\charrsid6821390 
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1040\langfe2057\langnp1040\insrsid7281653\charrsid6821390 http://www.fireflyworlds.com\tab \tab - Firefly Studios
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe2057\langnp1033\insrsid7281653\charrsid6821390 
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1040\langfe2057\langnp1040\insrsid7281653\charrsid6821390 http://stronghold.heavengames.com\tab - Sito di fan di Stronghold presso Heavengames
+\par 
+\par http://www.stronghold-knights.com\tab - Sito di fan di Stronghold
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\ul\lang1040\langfe2057\langnp1040\insrsid7281653\charrsid6821390 
+\par 
+\par Sezione 3 \endash  Guida multigiocatore
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1040\langfe2057\langnp1040\insrsid7281653\charrsid6821390 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\lang1040\langfe2057\langnp1040\insrsid7281653\charrsid6821390 Multigiocatore in Stronghold Crusader/Stronghold Crusader Extreme
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1040\langfe2057\langnp1040\insrsid7281653\charrsid6821390 
+\par Se il tuo computer \'e8 connesso a un router/firewall, devi reindirizzare le seguenti porte del firewall di Microsoft DirectPlay verso il tuo computer. In questo modo, potrai giocare a Stronghold Crusader o Stronghold Crusader Extreme in modalit\'e0
+ multigiocatore.
+\par 
+\par \ltrrow}\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1040\langfe2057\langnp1040\insrsid7281653\charrsid6821390 \cell }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 
+\f1\fs20\lang1033\langfe2057\langnp1033\insrsid7281653\charrsid6821390 In uscita\cell In entrata\cell }\pard \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 
+\f1\fs20\lang1033\langfe2057\langnp1033\insrsid7281653\charrsid6821390 \trowd \irow0\irowband0\ltrrow\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 
+\trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3\tblind0\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3510\clshdrawnil \cellx3402\clvertalt\clbrdrt
+\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2835\clshdrawnil \cellx6237\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2268\clshdrawnil \cellx8505\row \ltrrow}\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe2057\langnp1033\insrsid7281653\charrsid6821390 
+Connessione TCP iniziale\cell 47624\cell 47624\cell }\pard \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 
+\f1\fs20\lang1033\langfe2057\langnp1033\insrsid7281653\charrsid6821390 \trowd \irow1\irowband1\ltrrow\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 
+\trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3\tblind0\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3510\clshdrawnil \cellx3402\clvertalt\clbrdrt
+\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2835\clshdrawnil \cellx6237\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2268\clshdrawnil \cellx8505\row \ltrrow}\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe2057\langnp1033\insrsid7281653\charrsid6821390 
+TCP seguente\cell 2300-2400\cell 2300-2400\cell }\pard \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe2057\langnp1033\insrsid7281653\charrsid6821390 
+\trowd \irow2\irowband2\ltrrow\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3\tblind0\tblindtype3 \clvertalt\clbrdrt
+\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3510\clshdrawnil \cellx3402\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2835\clshdrawnil \cellx6237\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2268\clshdrawnil \cellx8505\row \ltrrow}\pard \ltrpar
+\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe2057\langnp1033\insrsid7281653\charrsid6821390 UDP seguente\cell 2300-2400\cell 2300-2400\cell }\pard \ltrpar
+\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe2057\langnp1033\insrsid7281653\charrsid6821390 \trowd \irow3\irowband3\lastrow \ltrrow
+\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3\tblind0\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 
+\clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3510\clshdrawnil \cellx3402\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2835\clshdrawnil 
+\cellx6237\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2268\clshdrawnil \cellx8505\row }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {
+\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe2057\langnp1033\insrsid7281653\charrsid6821390 
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1040\langfe2057\langnp1040\insrsid7281653\charrsid6821390 
+Se necessiti di assistenza per la configurazione del tuo router, visita il sito portforward.com. Vi troverai guide e manuali per oltre 1000 modelli di router.
+\par 
+\par http://www.portforward.com/english/routers/port_forwarding/routerindex.htm
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\lang1040\langfe2057\langnp1040\insrsid7281653\charrsid6821390 Firewall di Windows
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1040\langfe2057\langnp1040\insrsid7281653\charrsid6821390 
+\par }\pard \ltrpar\ql \fi-360\li900\ri0\nowidctlpar\tx900\wrapdefault\faauto\rin0\lin900\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1040\langfe2057\langnp1040\insrsid7281653\charrsid6821390 1.\tab 
+Accedi al Pannello di controllo > Windows Firewall.
+\par 2.\tab Seleziona la scheda Eccezioni.
+\par 3.\tab Se Stronghold Crusader e Stronghold Crusader Extreme non sono nell'elenco, clicca su Aggiungi programma.
+\par 4.\tab Seleziona Stronghold Crusader e clicca su OK.
+\par 5.\tab Ripeti il procedimento per Stronghold Crusader Extreme.
+\par 6.\tab Clicca su OK per chiudere la finestra di Windows Firewall.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\ul\lang1040\langfe2057\langnp1040\insrsid7281653\charrsid6821390 
+\par 
+\par Sezione 4 \endash  Gamespy Arcade e Windows Vista
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1040\langfe2057\langnp1040\insrsid7281653\charrsid6821390 
+\par Per giocare in modalit\'e0 multigiocatore attraverso Gamespy Arcade, \'e8 necessario il Service Pack 1 per Windows Vista.
+\par 
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\ul\lang1040\langfe2057\langnp1040\insrsid7281653\charrsid6821390 Sezione 5 \endash  Funzionalit\'e0 aggiuntive
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1040\langfe2057\langnp1040\insrsid7281653\charrsid6821390 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\lang1040\langfe2057\langnp1040\insrsid7281653\charrsid6821390 Mappa radar
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1040\langfe2057\langnp1040\insrsid7281653\charrsid6821390 
+\par \~Durante una partita, premi ALT+R per fare in modo che sulla mappa i nemici e gli alleati siano identificati da due colori distinti.
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\lang1040\langfe2057\langnp1040\insrsid7281653\charrsid6821390 Poteri Extreme attorno al Lord
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1040\langfe2057\langnp1040\insrsid7281653\charrsid6821390  
+\par Nelle opzioni di gioco della modalit\'e0 multigiocatore Extreme, puoi attivare la funzione "Poteri Extreme attorno al Lord". Questa funzione ti permette di piazzare delle truppe usando la barra di aiuto tattico entro il raggio d'azione del Lord anzich\'e9
+ entro quello della rocca.
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\keepn\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 
+\b\f1\fs20\ul\lang1040\langfe2057\langnp1040\insrsid7281653\charrsid6821390 
+\par }\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid7281653 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 
+\b\f1\fs20\ul\insrsid7281653\charrsid6821390 \page }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \cs15\b\f1\fs20\cf1\insrsid7281653\charrsid6821390 ESPA\'d1OL
+\par 
+\par }\pard\plain \ltrpar\s1\qc \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af1 \ltrch\fcs0 
+\b\f1\ul\lang1033\langfe2057\langnp1033\insrsid7281653\charrsid6821390 Stronghold Crusader Extreme }{\rtlch\fcs1 \ab\af1 \ltrch\fcs0 \b\f1\ul\lang1033\langfe2057\langnp1033\insrsid1120093\charrsid6821390 HD (v}{\rtlch\fcs1 \ab\af1 \ltrch\fcs0 
+\b\f1\ul\lang1033\langfe2057\langnp1033\insrsid15754904 1.4e}{\rtlch\fcs1 \ab\af1 \ltrch\fcs0 \b\f1\ul\lang1033\langfe2057\langnp1033\insrsid7281653\charrsid6821390 ) \endash  L\'e9eme
+\par }\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 
+\f1\fs20\lang1033\langfe2057\langnp1033\insrsid7281653\charrsid6821390 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid1120093 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe2057\langnp1033\insrsid1120093\charrsid6821390 \'a1Bienvenido a la nueva edici\'f3
+n de Stronghold Crusader Extreme HD! Las versiones HD soportan resoluciones de pantalla de hasta 2560 x 1600, lo cual te permitir\'e1 disfrutar de los juegos {\*\xmlopen\xmlns2{\factoidname City}}{\*\xmlopen\xmlns2{\factoidname place}}como{\*\xmlclose}
+{\*\xmlclose} nunca antes los hab\'edas visto, disfrutando de todos los detalles.
+\par 
+\par Tambi\'e9n hemos incluido algunos mapas adicionales para que disfrutes de ellos. Algunos los hemos creado nosotros, mientras que otros son obra de miembros de nuestra asombrosa y fiel comunidad de aficionados.
+\par 
+\par Esperamos que disfrutes jugando a las versiones HD y, {\*\xmlopen\xmlns2{\factoidname City}}{\*\xmlopen\xmlns2{\factoidname place}}como{\*\xmlclose}{\*\xmlclose} siempre, muchas gracias por tu apoyo.
+\par 
+\par Firefly Studios
+\par 
+\par 
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe2057\langnp1033\insrsid1120093\charrsid6821390 Configuraci\'f3n y partidas guardadas antiguas
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe2057\langnp1033\insrsid1120093\charrsid6821390 
+\par Stronghold Crusader HD guarda los mapas, partidas guardas y configuraci\'f3n {\*\xmlopen\xmlns2{\factoidname State}}{\*\xmlopen\xmlns2{\factoidname place}}del{\*\xmlclose}{\*\xmlclose} usuario en la carpeta Documents\\
+Stronghold Crusader. Si has actualizado a Stronghold Crusader HD una versi\'f3n antigua de Stronghold Crusader, deber\'e1s copiar los mapas, partidas guardadas y configuraci\'f3n de la carpeta Archivos de programa\\Firefly Studios\\
+Stronghold Crusader (ubicaci\'f3n por defecto) a la carpeta Documentos\\Stronghold Crusader.
+\par 
+\par Partidas guardadas (archivos .sav)
+\par 
+\par Ruta antigua: Archivos de programa\\Firefly Studios\\Stronghold Crusader\\saves
+\par Ruta nueva: Documentos\\Stronghold Crusader\\saves
+\par 
+\par Mapas (archivos personalizados .map)
+\par 
+\par Ruta antigua: Archivos de programa\\Firefly Studios\\Stronghold Crusader\\maps
+\par Ruta nueva: Documentos\\Stronghold Crusader\\maps
+\par 
+\par Configuraci\'f3n (crusader.cfg)
+\par 
+\par Ruta antigua: Archivos de programa\\Firefly Studios\\Stronghold Crusader
+\par Ruta nueva: Documentos\\Stronghold Crusader
+\par 
+\par Rastro de escaramuzas (skmasters.dat)
+\par 
+\par Ruta antigua: Archivos de programa\\Firefly Studios\\Stronghold Crusader
+\par Ruta nueva: Documentos\\Stronghold Crusader
+\par 
+\par NOTA: si usas Windows de 64 bits, la ruta de instalaci\'f3n por defecto es Archivos de programa (x86)\\Firefly Studios\\Stronghold Crusader
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe2057\langnp1033\insrsid1120093\charrsid6821390 
+\par 
+\par 
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 
+\b\f1\fs20\lang1034\langfe2057\langnp1034\insrsid7281653\charrsid6821390 Secci\'f3n 1 \endash  Crusader Extreme
+\par Secci\'f3n 2 \endash  Direcciones web \'fatiles
+\par }\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 
+\b\f1\fs20\lang1034\langfe2057\langnp1034\insrsid7281653\charrsid6821390 Secci\'f3n 3 \endash  Ayuda para Multijugador
+\par Secci\'f3n 4 \endash  }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\lang3082\langfe2057\langnp3082\insrsid7281653\charrsid6821390 GameSpy Arcade y Windows Vista}{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 
+\b\f1\fs20\lang1034\langfe2057\langnp1034\insrsid7281653\charrsid6821390 
+\par Secci\'f3n 5 \endash  Caracter\'edsticas adicionales}{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1034\langfe2057\langnp1034\insrsid7281653\charrsid6821390 
+\par 
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\ul\lang1034\langfe2057\langnp1034\insrsid7281653\charrsid6821390 Secci\'f3n 1 \endash  Crusader Extreme
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1034\langfe2057\langnp1034\insrsid7281653\charrsid6821390 
+\par Si eres nuevo en Crusader, te recomendamos que juegues las escaramuzas encadenadas Crusader o Warchest antes de intentar la escaramuza encadenada de Crusader Extreme. Las escaramuza
+s encadenadas de Crusader Extreme han sido creadas para veteranos de nuestros t\'edtulos Stronghold. \'a1Prep\'e1rate para luchar y que comience la batalla!
+\par 
+\par Stronghold Crusader Extreme incluye 2 versiones de Stronghold Crusader: Stronghold Crusader Deluxe y Stronghold Crusader Extreme. 
+\par 
+\par Stronghold Crusader Deluxe sali\'f3 primero exclusivamente en EE. UU. Ofrece todos los contenidos del Stronghold Crusader original y adem\'e1s a\'f1ade nuevos adversarios a los que enfrentarse y las escaramuzas encadenadas de Warchest.
+\par 
+\par Stronghold Crusader Extreme es una versi\'f3n completamente nueva de Stronghold Crusader que ofrece nuevas caracter\'edsticas extremas, como los puestos de avanzada y los superataques, que pueden usarse en modos multijugador y escaramuza. Adem\'e1
+s hay nuevos adversarios a los que enfrentarse y aparecen la escaramuza encadenada Extreme.
+\par 
+\par 
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 
+\b\f1\fs20\ul\lang1034\langfe2057\langnp1034\insrsid7281653\charrsid6821390 Secci\'f3n 2 \endash  Direcciones web \'fatiles
+\par }\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 
+\b\f1\fs20\ul\lang1034\langfe2057\langnp1034\insrsid7281653\charrsid6821390 
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1034\langfe2057\langnp1034\insrsid7281653\charrsid6821390 http://www.fireflyworlds.com\tab \tab - Firefly Studios
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\insrsid7281653\charrsid6821390 
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe2057\langnp1033\insrsid7281653\charrsid6821390 http://stronghold.heavengames.com\tab - Heavengames Stronghold Fansite
+\par 
+\par http://www.stronghold-knights.com\tab - Stronghold Knights Fansite
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\ul\lang1034\langfe2057\langnp1034\insrsid7281653\charrsid6821390 
+\par 
+\par Secci\'f3n 3 \endash   Ayuda para Multijugador
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1034\langfe2057\langnp1034\insrsid7281653\charrsid6821390 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\lang1034\langfe2057\langnp1034\insrsid7281653\charrsid6821390 Stronghold Crusader/Stronghold Crusader Extreme Multijugador
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1034\langfe2057\langnp1034\insrsid7281653\charrsid6821390 
+\par Si tu ordenador est\'e1 conectado a un router/firewall tendr\'e1s que abrir los siguientes puertos de Microsoft DirectPlay Firewall en tu ordenador para poder jugar a Stronghold Crusader o Stronghold Crusader Extreme multijugador.
+\par 
+\par \ltrrow}\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1034\langfe2057\langnp1034\insrsid7281653\charrsid6821390 \cell Salida\cell Entrada\cell }\pard \ltrpar
+\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1034\langfe2057\langnp1034\insrsid7281653\charrsid6821390 \trowd \irow0\irowband0\ltrrow\ts11\trgaph108\trleft-108
+\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3\tblind0\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3510\clshdrawnil \cellx3402\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2835\clshdrawnil \cellx6237\clvertalt\clbrdrt
+\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2268\clshdrawnil \cellx8505\row \ltrrow}\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af1\afs20 
+\ltrch\fcs0 \f1\fs20\lang1034\langfe2057\langnp1034\insrsid7281653\charrsid6821390 Conexi\'f3n TCP inicial \cell 47624\cell 47624\cell }\pard \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 
+\af1\afs20 \ltrch\fcs0 \f1\fs20\lang1034\langfe2057\langnp1034\insrsid7281653\charrsid6821390 \trowd \irow1\irowband1\ltrrow\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 
+\trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3\tblind0\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3510\clshdrawnil \cellx3402\clvertalt\clbrdrt
+\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2835\clshdrawnil \cellx6237\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2268\clshdrawnil \cellx8505\row \ltrrow}\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1034\langfe2057\langnp1034\insrsid7281653\charrsid6821390 
+TCP subsiguiente\cell 2300-2400\cell 2300-2400\cell }\pard \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 
+\f1\fs20\lang1034\langfe2057\langnp1034\insrsid7281653\charrsid6821390 \trowd \irow2\irowband2\ltrrow\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 
+\trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3\tblind0\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3510\clshdrawnil \cellx3402\clvertalt\clbrdrt
+\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2835\clshdrawnil \cellx6237\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2268\clshdrawnil \cellx8505\row \ltrrow}\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1034\langfe2057\langnp1034\insrsid7281653\charrsid6821390 
+UDP subsiguiente\cell 2300-2400\cell 2300-2400\cell }\pard \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 
+\f1\fs20\lang1034\langfe2057\langnp1034\insrsid7281653\charrsid6821390 \trowd \irow3\irowband3\lastrow \ltrrow\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 
+\trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3\tblind0\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3510\clshdrawnil \cellx3402\clvertalt\clbrdrt
+\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2835\clshdrawnil \cellx6237\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2268\clshdrawnil \cellx8505\row }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1034\langfe2057\langnp1034\insrsid7281653\charrsid6821390 
+\par Si necesitas ayuda para configurar tu router, visita portforward.com que tiene una excelente gama de gu\'edas para m\'e1s de 1.000 routers.
+\par 
+\par http://www.portforward.com/english/routers/port_forwarding/routerindex.htm
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe2057\langnp1033\insrsid7281653\charrsid6821390 Firewall de Windows
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe2057\langnp1033\insrsid7281653\charrsid6821390 
+\par }\pard \ltrpar\ql \fi-360\li720\ri0\nowidctlpar\tx720\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\insrsid7281653\charrsid6821390 1.\tab Abre Panel de control > Firewall de Windows
+\par }\pard \ltrpar\ql \fi-360\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1034\langfe2057\langnp1034\insrsid7281653\charrsid6821390 2.\tab Selecciona la pesta\'f1a de Excepciones
+\par 3.\tab Si Stronghold Crusader y Stronghold Crusader Extreme no est\'e1n en la lista, haz clic en Agregar programa
+\par 4.\tab Selecciona Stronghold Crusader y haz clic en Aceptar
+\par 5.\tab Repite el proceso para Stronghold Crusader Extreme
+\par 6.\tab Haz clic en Aceptar para cerrar el panel de Firewall de Windows
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\ul\lang1034\langfe2057\langnp1034\insrsid7281653\charrsid6821390 
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\ul\lang3082\langfe2057\langnp3082\insrsid7281653\charrsid6821390 Secci\'f3n 4 \endash  GameSpy Arcade y Windows Vista
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang3082\langfe2057\langnp3082\insrsid7281653\charrsid6821390 
+\par  Para jugar en modo multijugador a trav\'e9s de GameSpy Arcade en Windows Vista, hay que tener instalado el Service Pack 1 de Windows Vista.
+\par 
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\ul\lang1034\langfe2057\langnp1034\insrsid7281653\charrsid6821390 Secci\'f3n 5 \endash  Caracter\'edsticas adicionales
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1034\langfe2057\langnp1034\insrsid7281653\charrsid6821390 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\lang1034\langfe2057\langnp1034\insrsid7281653\charrsid6821390 Mapa del radar
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1034\langfe2057\langnp1034\insrsid7281653\charrsid6821390 
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang3082\langfe2057\langnp3082\insrsid7281653\charrsid6821390 Si durante la partida pulsas ALT-R, el mapa del radar cambia para mostrar a todos los enemigos de un color, y al jugador y los aliados de otro.
+
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\lang3082\langfe2057\langnp3082\insrsid7281653\charrsid6821390 Poderes extremos en torno al Se\'f1or
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang3082\langfe2057\langnp3082\insrsid7281653\charrsid6821390  
+\par Dentro de las opciones de juego en modo Extreme multijugador, puedes activar \lquote Poderes extremos en torno al Se\'f1or\lquote .\~Esta opci\'f3n permite al jugador regenerar tropas usando la barra de ayuda t\'e1ctica dentro del  radio del Se\'f1
+or, en vez de limitarse al radio de tu torre del homenaje.}{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1034\langfe2057\langnp1034\insrsid7281653\charrsid6821390 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe2057\langnp1033\insrsid7281653\charrsid6821390 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe2057\langnp1033\insrsid1602624\charrsid6821390 
+\par \page POLSKI
+\par 
+\par }\pard\plain \ltrpar\s1\qc \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid1602624 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af322 \ltrch\fcs0 
+\b\f322\ul\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 Twierdza: Krzy\'bfowiec Extreme }{\rtlch\fcs1 \ab\af1 \ltrch\fcs0 \b\f1\ul\lang1045\langfe2057\langnp1045\insrsid6821390\charrsid6821390 HD }{\rtlch\fcs1 \ab\af1 \ltrch\fcs0 
+\b\f1\ul\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 (wer. }{\rtlch\fcs1 \ab\af1 \ltrch\fcs0 \b\f1\ul\lang1045\langfe2057\langnp1045\insrsid15754904 1.4e}{\rtlch\fcs1 \ab\af1 \ltrch\fcs0 
+\b\f1\ul\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 ) \endash  Readme
+\par }\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 
+\b\f1\fs20\lang1033\langfe2057\langnp1033\insrsid1602624\charrsid6821390 
+\par }{\rtlch\fcs1 \af322\afs20 \ltrch\fcs0 \f322\fs20\cf1\insrsid6821390\charrsid6821390 Witamy w nowej edycji gry Twierdza: Krzy\'bfowiec HD! Edycje HD obs\'b3uguj\'b9 panoramiczny tryb wy\'9cwietlania w rozdzielczo\'9c
+ciach nawet do 2560 x 1600, co pozwala cieszy\'e6 si\'ea gr\'b9 na niedost\'eapnym dot\'b9d poziomie szczeg\'f3\'b3owo\'9cci grafiki.}{\rtlch\fcs1 \af1\afs27 \ltrch\fcs0 \cs19\f1\fs27\cf1\insrsid6821390\charrsid6821390 \~}{\rtlch\fcs1 \af322\afs20 
+\ltrch\fcs0 \f322\fs20\cf1\insrsid6821390\charrsid6821390 \line \line Dodali\'9cmy tak\'bfe kilka map, gotowych do gry i zabawy. Niekt\'f3re z nich stworzyli\'9cmy sami, a niekt\'f3re opracowali cz\'b3onkowie naszej wyj\'b9tkowej i zaanga\'bfowanej spo
+\'b3eczno\'9cci fan\'f3w.}{\rtlch\fcs1 \af1\afs27 \ltrch\fcs0 \cs19\f1\fs27\cf1\insrsid6821390\charrsid6821390 \~}{\rtlch\fcs1 \af322\afs20 \ltrch\fcs0 \f322\fs20\cf1\insrsid6821390\charrsid6821390 \line \line Mamy nadziej\'ea, \'bf
+e gra w edycje HD zapewni przyjemne doznania oraz, jak zawsze, dzi\'eakujemy za wsparcie.}{\rtlch\fcs1 \af1\afs27 \ltrch\fcs0 \cs19\f1\fs27\cf1\insrsid6821390\charrsid6821390 \~}{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 
+\f1\fs20\cf1\insrsid6821390\charrsid6821390 \line \line Firefly Studios}{\rtlch\fcs1 \af1\afs27 \ltrch\fcs0 \cs19\f1\fs27\cf1\insrsid6821390\charrsid6821390 \~}{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\cf1\insrsid6821390\charrsid6821390 \line \line 
+\line }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\cf1\insrsid6821390\charrsid6821390 Poprzednie zapisane gry i ustawienia}{\rtlch\fcs1 \af1\afs27 \ltrch\fcs0 \cs19\f1\fs27\cf1\insrsid6821390\charrsid6821390 \~}{\rtlch\fcs1 \af322\afs20 \ltrch\fcs0 
+\f322\fs20\cf1\insrsid6821390\charrsid6821390 \line \line Mapy u\'bfytkownik\'f3w, zapisane gry i ustawienia gry Twierdza: Krzy\'bfowiec HD s\'b9 przechowywane w folderze Documents\\Stronghold Crusader. Je\'9cli gra zosta\'b3
+a uaktualniona z wersji Twierdza: Krzy\'bfowiec do wersji Twierdza: Krzy\'bfowiec HD, nale\'bfy skopiowa\'e6 mapy, zapisane gry i ustawienia z folderu Program Files\\Firefly Studios\\Stronghold Crusader (domy\'9clny) do folderu Documents\\
+Stronghold Crusader.\line \line Zapisane gry (pliki .sav)}{\rtlch\fcs1 \af1\afs27 \ltrch\fcs0 \cs19\f1\fs27\cf1\insrsid6821390\charrsid6821390 \~}{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\cf1\insrsid6821390\charrsid6821390 \line \line 
+Poprzednia lokalizacja: Program Files\\Firefly Studios\\Stronghold Crusader\\saves}{\rtlch\fcs1 \af1\afs27 \ltrch\fcs0 \cs19\f1\fs27\cf1\insrsid6821390\charrsid6821390 \~}{\rtlch\fcs1 \af322\afs20 \ltrch\fcs0 \f322\fs20\cf1\insrsid6821390\charrsid6821390 
+\line Nowa lokalizacja: Documents\\Stronghold Crusader\\Saves\line \line Mapy (w\'b3asne plik}{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\cf1\insrsid6821390\charrsid6821390 i .map)}{\rtlch\fcs1 \af1\afs27 \ltrch\fcs0 
+\cs19\f1\fs27\cf1\insrsid6821390\charrsid6821390 \~}{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\cf1\insrsid6821390\charrsid6821390 \line \line Poprzednia lokalizacja: Program Files\\Firefly Studios\\Stronghold Crusader\\maps}{\rtlch\fcs1 \af1\afs27 
+\ltrch\fcs0 \cs19\f1\fs27\cf1\insrsid6821390\charrsid6821390 \~}{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\cf1\insrsid6821390\charrsid6821390 \line Nowa lokalizacja:Documents\\Stronghold Crusader\\maps\line \line Ustawienia (crusader.cfg)}{\rtlch\fcs1 
+\af1\afs27 \ltrch\fcs0 \cs19\f1\fs27\cf1\insrsid6821390\charrsid6821390 \~}{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\cf1\insrsid6821390\charrsid6821390 \line \line Poprzednia lokalizacja: Program Files\\Firefly Studios\\Stronghold Crusader}{
+\rtlch\fcs1 \af1\afs27 \ltrch\fcs0 \cs19\f1\fs27\cf1\insrsid6821390\charrsid6821390 \~}{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\cf1\insrsid6821390\charrsid6821390 \line Nowa lokal}{\rtlch\fcs1 \af322\afs20 \ltrch\fcs0 
+\f322\fs20\cf1\insrsid6821390\charrsid6821390 izacja: Documents\\Stronghold Crusader\line \line Dane potyczek (skmasters.dat)\line \line Poprzednia lokalizacja: Program Files\\Firefly Studios\\Stronghold Crusader\line Nowa lokalizacja: Documents\\
+Stronghold Crusader\line \line UWAGA: Je\'9cli u\'bfywasz 64-bitowego systemu Windows, domy\'9clna loka}{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\cf1\insrsid6821390\charrsid6821390 lizacja instalacji gry to Program Files (x86)\\Firefly Studios\\
+Stronghold Crusader
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe2057\langnp1033\insrsid6821390\charrsid6821390 
+\par 
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0\pararsid1602624 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af322\afs20 \ltrch\fcs0 
+\b\f322\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 Rozdzia\'b3 1 \endash  Krzy\'bfowiec Extreme
+\par Rozdzia\'b3 2 \endash  Przydatne adresy
+\par Rozdzia\'b3 3 \endash  Tryb wieloosobowy
+\par Rozdzia\'b3 4 \endash  GameSpy Arcade i Windows Vista
+\par }\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid1602624 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af322\afs20 \ltrch\fcs0 
+\b\f322\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 Rozdzia\'b3 5 \endash  Dodatkowe informacje
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1045\langfe2057\langnp1045\insrsid6821390\charrsid6821390 
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0\pararsid1602624 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af322\afs20 \ltrch\fcs0 
+\b\f322\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 Rozdzia\'b3 1 \endash  Krzy\'bfowiec Extreme
+\par }\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid1602624 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 
+\f1\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 
+\par }{\rtlch\fcs1 \af322\afs20 \ltrch\fcs0 \f322\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 Je\'9cli jeste\'9c nowym krzy\'bfowcem, przed wst\'b9pieniem na szlak Krzy\'bfowca Extreme radzimy wpierw uko\'f1czy\'e6 gr\'ea Twierdza: Krzy
+\'bfowiec lub Twierdza Warchest. Krzy\'bfowiec Extreme zosta\'b3 przygotowany z my\'9cl\'b9 o weteranach poprzednich ods\'b3on Twierdzy. Przywdziej zbroj\'ea i do boju!
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 
+\par }{\rtlch\fcs1 \af322\afs20 \ltrch\fcs0 \f322\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 Twierdza: Krzy\'bfowiec Extreme zawiera dwie wersje gry: Twierdza: Krzy\'bfowiec Deluxe oraz Twierdza: Krzy\'bfowiec Extreme.
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 
+\par }{\rtlch\fcs1 \af322\afs20 \ltrch\fcs0 \f322\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 Twierdza: Krzy\'bfowiec Deluxe zosta\'b3a wcze\'9cniej wydana jedynie na terenie Stan\'f3w Zjednoczonych.
+ Zawiera wszystkie elementy poprzedniej Twierdzy: Krzy\'bfowiec oraz nowych przeciwnik\'f3w, a tak\'bfe szlak Warchest.
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 
+\par }{\rtlch\fcs1 \af322\afs20 \ltrch\fcs0 \f322\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 Twierdza: Krzy\'bfowiec Extreme to zupe\'b3nie nowa edycja Twierdzy: Krzy\'bfowiec, zawieraj\'b9
+ca nowe, ekstremalne wyzwania, takie jak posterunki i superataki, kt\'f3re mo\'bfna wykorzysta\'e6 w trakcie potyczek i rozgrywek wieloosobowych. Dost\'eapni s\'b9 r\'f3wnie\'bf nowi przeciwnicy oraz szlak Extreme.
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390  
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1045\langfe2057\langnp1045\insrsid6821390\charrsid6821390 
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0\pararsid1602624 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af322\afs20 \ltrch\fcs0 
+\b\f322\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 Rozdzia\'b3 2 \endash  Przydatne adresy
+\par }\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid1602624 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 
+\b\f1\fs20\ul\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\insrsid1602624\charrsid6821390 http://www.fireflyworlds.com\tab \tab - Firefly Studios
+\par 
+\par http://strongholdnet.gry-online.pl\tab \tab - StrongholdNet}{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 
+\par 
+\par http://stronghold.heavengames.com\tab - strona fanowska Heavengames
+\par 
+\par http://www.stronghold-knights.com\tab - strona fanowska Stronghold Knights\tab 
+\par 
+\par 
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0\pararsid1602624 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af322\afs20 \ltrch\fcs0 
+\b\f322\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 Rozdzia\'b3 3 \endash  Tryb wieloosobowy
+\par }\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid1602624 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 
+\f1\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 
+\par }{\rtlch\fcs1 \ab\af322\afs20 \ltrch\fcs0 \b\f322\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 Tryb wieloosobowy w Twierdzy: Krzy\'bfowiec/ Twierdzy: Krzy\'bfowiec Extre}{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 
+\b\f1\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 me
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 
+\par }{\rtlch\fcs1 \af322\afs20 \ltrch\fcs0 \f322\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 Je\'9cli Tw\'f3j komputer jest pod\'b3\'b9czony do routera/firewalla, musisz przekserowa\'e6 nast\'eapuj\'b9
+ce porty Microsoft DirectPlay. Inaczej rozgrywka wieloosobowa w Twierdzy: Krzy\'bfowiec/ Twierdzy: Krzy\'bfowiec Extreme nie b\'eadzie mo\'bfliwa.
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 
+\par \ltrrow}\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0\pararsid9072912 {\rtlch\fcs1 \af322\afs20 \ltrch\fcs0 \f322\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 Wst\'eapne po\'b3\'b9czenie TCP\cell }{
+\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 47624 }{\rtlch\fcs1 \af322\afs20 \ltrch\fcs0 \f322\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 wychodz\'b9cy\cell 
+47624 przychodz\'b9cy\cell }\pard \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 
+\trowd \irow0\irowband0\ltrrow\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 
+\trftsWidth1\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3\tblrsid9072912\tblind0\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth3510\clshdrawnil \cellx3402\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2835\clshdrawnil \cellx6237\clvertalt\clbrdrt\brdrs\brdrw10 
+\clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2268\clshdrawnil \cellx8505\row \ltrrow}\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0\pararsid9072912 {\rtlch\fcs1 \af322\afs20 
+\ltrch\fcs0 \f322\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 Po\'b3\'b9czenia TCP\cell }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 2300-2400\cell 2300-2400\cell 
+}\pard \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 \trowd \irow1\irowband1\ltrrow
+\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3\tblrsid9072912\tblind0\tblindtype3 \clvertalt\clbrdrt
+\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3510\clshdrawnil \cellx3402\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2835\clshdrawnil \cellx6237\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2268\clshdrawnil \cellx8505\row \ltrrow}\pard \ltrpar
+\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0\pararsid9072912 {\rtlch\fcs1 \af322\afs20 \ltrch\fcs0 \f322\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 Po\'b3\'b9czenia }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 
+\f1\fs20\lang1045\langfe2057\langnp1045\insrsid4677045 UDP}{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 \cell 2300-2400\cell 2300-2400\cell }\pard \ltrpar
+\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 \trowd \irow2\irowband2\lastrow \ltrrow
+\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3\tblrsid9072912\tblind0\tblindtype3 \clvertalt\clbrdrt
+\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3510\clshdrawnil \cellx3402\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2835\clshdrawnil \cellx6237\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2268\clshdrawnil \cellx8505\row }\pard \ltrpar
+\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid1602624 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 
+\par }{\rtlch\fcs1 \af322\afs20 \ltrch\fcs0 \f322\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 Je\'9cli nie radzisz sobie z konfiguracj\'b9 routera, odwied\'9f stron\'ea portforward.com, na kt\'f3rej wspaniale obja\'9c
+niono ustawienia 1000 r\'f3\'bfnych urz\'b9dze\'f1.
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 
+\par http://www.portforward.com/english/routers/port_forwarding/routerindex.htm
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 Firewall systemu Windows
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 
+\par }\pard \ltrpar\ql \li180\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin180\itap0\pararsid1602624 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 1.\tab Otw\'f3rz \'84Panel sterowania\'94
+ > Windows Firewall.
+\par }{\rtlch\fcs1 \af322\afs20 \ltrch\fcs0 \f322\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 2.\tab Wybierz zak\'b3adk\'ea \'84Wyj\'b9tki\'94.
+\par 3.\tab Je\'9cli gier Twierdza: Krzy\'bfowiec i Twierdza: Krzy\'bf}{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 owiec Extreme nie ma na liscie, kliknij \'84Dodaj program\'94.
+\par }{\rtlch\fcs1 \af322\afs20 \ltrch\fcs0 \f322\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 4.\tab Wybierz Twierdza: Krzy\'bfowiec i kliknij OK.
+\par 5.\tab Powt\'f3rz powy\'bfsze czynno\'9cci dla gry Twierdza: Krzy\'bfowiec Extreme.
+\par 6.\tab Kliknij OK, aby zamkn\'b9\'e6 ustawienia firewalla systemu Windows.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid1602624 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\ul\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\ul\lang1045\langfe2057\langnp1045\insrsid6821390\charrsid6821390 
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0\pararsid1602624 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \ab\af322\afs20 \ltrch\fcs0 
+\b\f322\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 Rozdzia\'b3 4 \endash  GameS}{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 py Arcade i Windows Vista
+\par }\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid1602624 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\cgrid\langnp2057\langfenp2057 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 
+\f1\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 
+\par }{\rtlch\fcs1 \af322\afs20 \ltrch\fcs0 \f322\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 Aby toczy\'e6 rozgrywki wieloosobowe za po\'9crednictwem Arcade w systemie Windows Vista, nale\'bfy zainstalowa\'e6
+ Windows Vista Service Pack .
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1045\langfe2057\langnp1045\insrsid6821390\charrsid6821390 
+\par }{\rtlch\fcs1 \ab\af322\afs20 \ltrch\fcs0 \b\f322\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 Rozdzia\'b3 5 \endash  Dodatkowe informacje
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 Radar
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 
+\par }{\rtlch\fcs1 \af322\afs20 \ltrch\fcs0 \f322\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 Wci\'9cni\'eacie kombinacji klawiszy ALT+R w trakcie gry powoduje oznaczenie wszystkich przeciwnik\'f3
+w na radarze kolorem czerwonym, a wszystkich sprzymierze\'f1c\'f3w \endash  kolorem niebieskim.
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 
+\par }{\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 Moce lorda
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390  
+\par }{\rtlch\fcs1 \af322\afs20 \ltrch\fcs0 \f322\fs20\lang1045\langfe2057\langnp1045\insrsid1602624\charrsid6821390 W ustawieniach wieloosobowego trybu Extreme mo\'bfna w\'b3\'b9czy\'e6 opcj\'ea \'84Moce lorda\'94. Pozwala ona na desant jednostek w zasi\'ea
+gu lorda, a nie \endash  jak dotychczas \endash  w zasi\'eagu warowni.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe2057\langnp1033\insrsid1602624\charrsid6821390 
+\par }}
