@@ -1,0 +1,24 @@
+Stronghold log 
+ 
+Logged at: 16:14:40   Active
+Logged at: 16:14:40   redraw 1
+Logged at: 16:14:40   redraw 5
+Logged at: 16:14:40   Reset
+Logged at: 16:14:40   redraw 1
+Logged at: 16:14:40   redraw 5
+Logged at: 16:14:41   redraw 1
+Logged at: 16:14:41   redraw 5
+Logged at: 16:14:41   redraw 1
+Logged at: 16:14:41   redraw 5
+Logged at: 16:14:41   redraw 1
+Logged at: 16:14:41   redraw 5
+Logged at: 16:14:41   redraw 1
+Logged at: 16:14:41   redraw 5
+Logged at: 16:14:41   redraw 1
+Logged at: 16:14:41   redraw 5
+Logged at: 16:14:41   redraw 1
+Logged at: 16:14:41   redraw 5
+Logged at: 16:14:41   GFX mem used: 627568
+Logged at: 16:14:41   redraw 1
+Logged at: 16:14:41   redraw 5
+Logged at: 16:16:43   Inactive
