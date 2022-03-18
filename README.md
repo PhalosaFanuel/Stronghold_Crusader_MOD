@@ -18,14 +18,14 @@ This is CowMan Stronghold Crusader Mod
 +Free trader post<br />
 +Quiker responsiveness of gates towards enemies<br />
 +Imporve unit pathfinding<br />
-+Camera move using WASD<br /><br />
++Camera move using WASD<br />
++Increase attacking troops limit of AIs to 1000<br />
++Reduce reruitment defense troops from 6 month to 1 month<br />
++Increase the rate of additional attack troops from 5 unit to 100% of base unit<br /><br />
 AI<br />
 Sultan<br />
 +Significantly improve sultan attacking and defensive behaviour<br />
 +Change sultan attacking and defending troops<br />
 +Improving sultan castle<br />
-+Increase attacking troops limit of AIs to 1000<br />
-+Reduce reruitment defense troops from 6 month to 1 month<br />
-+Increase the rate of additional attack troops from 5 unit to 100% of base unit<br />
 +Other personality change<br />
 
