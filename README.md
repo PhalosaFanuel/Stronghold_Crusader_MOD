@@ -26,8 +26,9 @@ This is CowMan Stronghold Crusader Mod
 AI<br />
 Sultan<br />
 +Significantly improve sultan attacking and defensive behaviour<br />
-+Change sultan attacking and defending troops<br />
-+Improving Sultan castle<br />
++Change Sultan attacking and defending troops<br />
++Improve Sultan castle<br />
++Improve Sultan economy<br />
 +Change Sultan starting troops from Slinger to ArabArcher<br />
 +Other personality change<br />
 
