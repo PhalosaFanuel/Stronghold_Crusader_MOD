@@ -21,7 +21,8 @@ This is CowMan Stronghold Crusader Mod
 +Camera move using WASD<br />
 +Increase attacking troops limit of AIs to 1000<br />
 +Reduce reruitment defense troops from 6 month to 1 month<br />
-+Increase the rate of additional attack troops from 5 unit to 100% of base unit<br /><br />
++Increase the rate of additional attack troops from 5 unit to 100% of base unit<br />
++Disable AI sleeping mode when lack of resource<br /><br />
 AI<br />
 Sultan<br />
 +Significantly improve sultan attacking and defensive behaviour<br />

@@ -4,8 +4,8 @@ v0.1 -- 15-3-2022
     +Improve attack waves
     +Increased recuitment speed
     +Increased armor of laddermen against ranged unit
-    +Increased armof of Arabic Swordsmen against crossbows
-    +Increased armot of Spearmen against ranged units
+    +Increased armor of Arabic Swordsmen against crossbows
+    +Increased armor of Spearmen against ranged units
     +Arabic Swordsmen destroy walls faster
     +Restore engineer arabian speech
     +Spearmen run by default
@@ -19,3 +19,11 @@ v0.1 -- 15-3-2022
     +Increase attacking troops limit of AIs to 1000
     +Reduce reruitment defense troops from 6 month to 1 month
     +Increase the rate of additional attack troops from 5 unit to 100% of base unit
+    +Disable AI sleeping mode when lack of resource
+
+    AI
+    Sultan
+    +Significantly improve sultan attacking and defensive behaviour
+    +Change sultan attacking and defending troops
+    +Improving sultan castle
+    +Other personality change
