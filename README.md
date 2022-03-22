@@ -27,6 +27,7 @@ AI<br />
 Sultan<br />
 +Significantly improve sultan attacking and defensive behaviour<br />
 +Change sultan attacking and defending troops<br />
-+Improving sultan castle<br />
++Improving Sultan castle<br />
++Change Sultan starting troops from Slinger to ArabArcher<br />
 +Other personality change<br />
 
