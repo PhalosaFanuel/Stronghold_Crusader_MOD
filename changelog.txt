@@ -1,3 +1,11 @@
+v0.2 -- 24-3-2022
+    AI
+    Rat
+    +Significantly improve Rat attacking and defensive behaviour
+    +Change Rat attacking and defending troops
+    +Improving Rat castle
+    +Other personality change
+
 v0.1 -- 15-3-2022
     +Bug Fixing Using Unofficial Crusader Patch
     +Increase of the attacking troops limit of the AIs
