@@ -1,28 +1,24 @@
 Stronghold log 
  
-Logged at: 18:03:05   Active
-Logged at: 18:03:05   redraw 1
-Logged at: 18:03:05   redraw 5
-Logged at: 18:03:05   Reset
-Logged at: 18:03:06   redraw 1
-Logged at: 18:03:06   redraw 5
-Logged at: 18:03:06   redraw 1
-Logged at: 18:03:06   redraw 5
-Logged at: 18:03:06   redraw 1
-Logged at: 18:03:06   redraw 5
-Logged at: 18:03:06   redraw 1
-Logged at: 18:03:06   redraw 5
-Logged at: 18:03:06   redraw 1
-Logged at: 18:03:06   redraw 5
-Logged at: 18:03:06   redraw 1
-Logged at: 18:03:06   redraw 5
-Logged at: 18:03:06   redraw 1
-Logged at: 18:03:06   redraw 5
-Logged at: 18:03:07   GFX mem used: 627568
-Logged at: 18:03:07   redraw 1
-Logged at: 18:03:07   redraw 5
-Logged at: 18:06:03   Inactive
-Logged at: 18:06:23   Active
-Logged at: 18:06:23   restored
-Logged at: 18:06:23   Reset
-Logged at: 18:18:03   Inactive
+Logged at: 20:13:10   Active
+Logged at: 20:13:11   redraw 1
+Logged at: 20:13:11   redraw 5
+Logged at: 20:13:11   Reset
+Logged at: 20:13:11   redraw 1
+Logged at: 20:13:11   redraw 5
+Logged at: 20:13:11   redraw 1
+Logged at: 20:13:11   redraw 5
+Logged at: 20:13:11   redraw 1
+Logged at: 20:13:11   redraw 5
+Logged at: 20:13:11   redraw 1
+Logged at: 20:13:11   redraw 5
+Logged at: 20:13:11   redraw 1
+Logged at: 20:13:11   redraw 5
+Logged at: 20:13:11   redraw 1
+Logged at: 20:13:12   redraw 5
+Logged at: 20:13:12   redraw 1
+Logged at: 20:13:12   redraw 5
+Logged at: 20:13:12   GFX mem used: 627568
+Logged at: 20:13:12   redraw 1
+Logged at: 20:13:12   redraw 5
+Logged at: 20:19:50   Inactive
