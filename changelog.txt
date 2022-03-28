@@ -1,9 +1,9 @@
 v0.2 -- 24-3-2022
     AI
     Snake
-    +Significantly improve Rat attacking and defensive behaviour
-    +Change Rat attacking and defending troops
-    +Improving Rat castle
+    +Significantly improve Snake attacking and defensive behaviour
+    +Change Snake attacking and defending troops
+    +Improving Snake castle
     +Other personality change
 
     Sultan
