@@ -1,10 +1,13 @@
 v0.2 -- 24-3-2022
     AI
-    Rat
+    Snake
     +Significantly improve Rat attacking and defensive behaviour
     +Change Rat attacking and defending troops
     +Improving Rat castle
     +Other personality change
+
+    Sultan
+    +Reduce AttBase from 100 to 75
 
 v0.1 -- 15-3-2022
     +Bug Fixing Using Unofficial Crusader Patch

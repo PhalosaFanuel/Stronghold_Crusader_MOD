@@ -1,13 +1,3 @@
 AIC Errors found in D:\Stronghold Crusader HD mod\Stronghold_Mod_File\Stronghold_Crusader_MOD\Mod Utility\UnofficialCrusaderPatch_2.15b\resources\aic\CowMan.json:
 Errors found in :
-Error parsing field AttDiggingUnit. Reason: Invalid setting
-Hint: Type: DiggingUnitAIC Errors found in D:\Stronghold Crusader HD mod\Stronghold_Mod_File\Stronghold_Crusader_MOD\Mod Utility\UnofficialCrusaderPatch_2.15b\resources\aic\CowMan.json:
-Errors found in :
-Error parsing field AttDiggingUnit. Reason: Invalid setting
-Hint: Type: DiggingUnitAIC Errors found in D:\Stronghold Crusader HD mod\Stronghold_Mod_File\Stronghold_Crusader_MOD\Mod Utility\UnofficialCrusaderPatch_2.15b\resources\aic\CowMan.json:
-Errors found in :
-Error parsing field AttDiggingUnit. Reason: Invalid setting
-Hint: Type: DiggingUnitAIC Errors found in D:\Stronghold Crusader HD mod\Stronghold_Mod_File\Stronghold_Crusader_MOD\Mod Utility\UnofficialCrusaderPatch_2.15b\resources\aic\CowMan.json:
-Errors found in :
-Error parsing field AttDiggingUnit. Reason: Invalid setting
-Hint: Type: DiggingUnit
+Error parsing field AIRequestwDelay.

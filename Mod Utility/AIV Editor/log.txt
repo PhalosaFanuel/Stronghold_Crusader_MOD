@@ -1,25 +1,28 @@
 Stronghold log 
  
-Logged at: 00:33:31   Active
-Logged at: 00:33:31   redraw 1
-Logged at: 00:33:31   redraw 5
-Logged at: 00:33:32   Reset
-Logged at: 00:33:32   redraw 1
-Logged at: 00:33:32   redraw 5
-Logged at: 00:33:32   redraw 1
-Logged at: 00:33:32   redraw 5
-Logged at: 00:33:32   redraw 1
-Logged at: 00:33:32   redraw 5
-Logged at: 00:33:32   redraw 1
-Logged at: 00:33:32   redraw 5
-Logged at: 00:33:32   redraw 1
-Logged at: 00:33:32   redraw 5
-Logged at: 00:33:32   redraw 1
-Logged at: 00:33:32   redraw 5
-Logged at: 00:33:32   redraw 1
-Logged at: 00:33:32   redraw 5
-Logged at: 00:33:33   GFX mem used: 627568
-Logged at: 00:33:33   redraw 1
-Logged at: 00:33:33   redraw 5
-Logged at: 00:33:35   Error:save data - raw 2011
-Logged at: 00:42:31   Inactive
+Logged at: 18:03:05   Active
+Logged at: 18:03:05   redraw 1
+Logged at: 18:03:05   redraw 5
+Logged at: 18:03:05   Reset
+Logged at: 18:03:06   redraw 1
+Logged at: 18:03:06   redraw 5
+Logged at: 18:03:06   redraw 1
+Logged at: 18:03:06   redraw 5
+Logged at: 18:03:06   redraw 1
+Logged at: 18:03:06   redraw 5
+Logged at: 18:03:06   redraw 1
+Logged at: 18:03:06   redraw 5
+Logged at: 18:03:06   redraw 1
+Logged at: 18:03:06   redraw 5
+Logged at: 18:03:06   redraw 1
+Logged at: 18:03:06   redraw 5
+Logged at: 18:03:06   redraw 1
+Logged at: 18:03:06   redraw 5
+Logged at: 18:03:07   GFX mem used: 627568
+Logged at: 18:03:07   redraw 1
+Logged at: 18:03:07   redraw 5
+Logged at: 18:06:03   Inactive
+Logged at: 18:06:23   Active
+Logged at: 18:06:23   restored
+Logged at: 18:06:23   Reset
+Logged at: 18:18:03   Inactive
