@@ -41,7 +41,7 @@
       "Counts": [ 5, 9 ]
     },
     "crusader": {
-      "Units": [ "Swordsman", "Crossbowman", "Pikeman", "EuropArcher" ],
+      "Units": [ "Swordsman", "Crossbowman", "Pikeman", "ArabArcher" ],
       "Counts": [ 10, 10, 6, 20 ]
     },
     "deathmatch": {
